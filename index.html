@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parcel Bundler</title>
+        <!-- reset.css cdn : main.scss가 호출되기 이전에 호출해줘야한다-->
+        <!-- https://www.jsdelivr.com/package/npm/reset-css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+        <link rel="stylesheet" href="./scss/main.scss">
+        <!-- defer : html의 body내용을 js가 제어할 때 사용 -->
+        <script defer src="./js/main.js"></script> 
+    </head>
+    <body>
+        <h1>Hello Parcel!!</h1>
+        <img src="./images/logo.png" alt="HEROPY">
+    </body>
+</html>
