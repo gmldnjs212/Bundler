@@ -1,10 +1,9 @@
 {
   "name": "Bundler",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html --port 1216",
     "build": "parcel build index.html"
   },
   "keywords": [],
@@ -26,5 +25,14 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmldnjs212/Bundler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmldnjs212/Bundler/issues"
+  },
+  "homepage": "https://github.com/gmldnjs212/Bundler#readme",
+  "description": ""
 }
